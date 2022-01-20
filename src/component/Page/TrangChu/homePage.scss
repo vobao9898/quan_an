@@ -1,0 +1,120 @@
+    .homePage-admin {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 80px
+    }
+    
+    .homepage {
+        width: 80%;
+        min-height: 100vh;
+    }
+    
+    .title-homePage,
+    .title-statistical-homepage {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .category-homePage {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    .shadow {
+        height: 100px;
+        width: 300px;
+        background-color: #FFFFFF;
+        box-shadow: -3px 4px 14px 10px #dad4d4;
+        font-size: 20px;
+        padding: 0 20px;
+        border-left: 10px solid rgba(23, 0, 231, 0.712);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .shadow:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+    
+    .vertical {
+        height: 50px;
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .base {
+        display: flex;
+        width: 100%;
+    }
+    
+    .base .left {
+        width: 80%;
+    }
+    
+    .base .right {
+        width: 20%;
+    }
+    
+    .homePage-admin .icons {
+        font-size: 50px !important;
+    }
+    
+    .title-homePage-small,
+    .amount-homePage {
+        height: 25px;
+    }
+    
+    .title-homePage-small {
+        color: rgba(23, 0, 231, 0.712);
+    }
+    
+    .amount-homePage {
+        margin-top: 5px;
+    }
+    
+    @media screen and (min-width: 768px)and(max-width: 1060px) {
+        .homepage {
+            width: 100%;
+            min-height: 100vh;
+        }
+    }
+    
+    @media screen and (min-width: 960px)and(max-width: 1200px) {
+        .homepage {
+            width: 100%;
+            min-height: 100vh;
+        }
+        .shadow {
+            height: 100px;
+            width: 250px;
+            font-size: 15px;
+        }
+        .homePage-admin .icons {
+            font-size: 40px !important;
+        }
+    }
+    
+    @media screen and (min-width: 480px)and(max-width: 950px) {
+        .category-homePage {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .shadow {
+            height: 100px;
+            width: 250px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .homePage-admin .icons {
+            font-size: 20px !important;
+        }
+    }

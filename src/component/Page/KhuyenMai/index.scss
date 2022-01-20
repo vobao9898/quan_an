@@ -1,0 +1,37 @@
+.khuyenmai thead tr th {
+    font-size: 22px;
+    text-align: center;
+    vertical-align: top
+}
+
+.khuyenmai tbody tr td {
+    font-size: 18px;
+}
+
+.Controls_type {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.btn.btn-danger.delete_type {
+    margin-left: 0px !important;
+}
+
+@media screen and (min-width: 768px)and(max-width: 1060px) {
+    .type_product {
+        width: 100%;
+        min-height: 80vh;
+    }
+}
+
+@media screen and (min-width: 960px)and(max-width: 1200px) {
+    .type_product {
+        width: 100%;
+        min-height: 80vh;
+    }
+    button.btn.btn-danger.delete_type {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 480px)and(max-width: 950px) {}

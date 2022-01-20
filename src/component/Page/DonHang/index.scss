@@ -1,0 +1,33 @@
+.donhang {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.donhang-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title_TT {
+    color: black !important;
+    margin-right: 8px !important;
+    font-size: 20px !important;
+}
+
+.xem-donhang {
+    color: aqua;
+}
+
+.xem-donhang:hover {
+    color: rgba(0, 255, 255, 0.527);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px)and(max-width: 1024px) {
+    .donhang-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,104 @@
+.users {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    width: 100%;
+}
+
+.users .search {
+    margin-top: 30px;
+}
+
+.users .ngaysearch {
+    width: 100%;
+}
+
+.users .ngaysearch .canngang {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.users .btnsearch {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.users .btnsearch input {
+    margin: auto 0;
+    padding: 5px 0;
+}
+
+.users .right {
+    width: 100%;
+    height: 100%;
+}
+
+.users .right button {
+    width: 100px;
+    margin: 5px 0;
+    height: 35px;
+}
+
+.pagination {
+    width: 100%;
+}
+
+.pagination>li {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.pagination>li {
+    list-style: none;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2c689c;
+    background-color: #fff;
+    border: 0.5px solid #ddd;
+}
+
+.pagination .active a {
+    color: #fff;
+    background-color: #357edd;
+    border-color: #357edd;
+}
+
+
+/* Style the active class (and buttons on mouse-over) */
+
+.pagination>li>a:hover {
+    background-color: #357edd;
+    color: white;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+    margin-left: 0;
+    padding: 0px;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+    display: none!important;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-bottom-right-radius: 1px;
+    margin-right: 0;
+    padding: 0px!important;
+    border-top-right-radius: 1px;
+    display: none!important;
+}
+
+.right {
+    display: flex;
+}

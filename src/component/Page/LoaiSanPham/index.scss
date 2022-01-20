@@ -1,0 +1,77 @@
+.product-admin {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.type_product {
+    width: 80%;
+    min-height: 80vh;
+    margin-top: 110px;
+}
+
+button.btn.btn-danger.delete_type {
+    margin-left: 20px;
+}
+
+.table_type {
+    margin-top: 10px;
+}
+
+.type_product table {
+    font-size: 20px;
+}
+
+.type_product table img {
+    width: 200px;
+    height: 200px;
+}
+
+.width-lsp {
+    width: 200px;
+}
+
+.type_product button.btn.btn-danger.delete_type {
+    margin-top: 10px;
+}
+
+.type_product_search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-thuonghieu label {
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.search-thuonghieu input[type="text"] {
+    height: 40px;
+    width: 200px;
+}
+
+.width-DK {
+    width: 100px;
+}
+
+.type_product table img {
+    width: 180px;
+    height: 180px;
+}
+
+@media screen and (min-width: 768px)and(max-width: 1060px) {
+    .type_product {
+        width: 100%;
+        min-height: 80vh;
+    }
+}
+
+@media screen and (min-width: 960px)and(max-width: 1200px) {
+    .type_product {
+        width: 100%;
+        min-height: 80vh;
+    }
+}
+
+@media screen and (min-width: 480px)and(max-width: 950px) {}
